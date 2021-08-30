@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"  >
+  <title>Calculator app</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" type="images/png" href="images/favicon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="logo">
+<img class="" src="images/logo.png" alt="">
+  </div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <div class="bill">
+        <h3 class="bill-h3">Bill</h3>
+        <img class="icon-dollar" src="images/icon-dollar.png">
+        <h2 id="bill" > 0.00</h2>
+      </div>
+    </div>
+    </div>
+ <div class="row">
+  <div class="col col-12 col-md-6">
+<div class=" select-tip">
+<h3 class="tip-h3">Select Tip %</h3>
+<div class="allbtn">
+
+  <button id="btn1"  type="button"  class="btn all tip btn-outline-secondary ">5%</button>
+  <button id="btn2"  type="button" class="btn all tip btn-outline-secondary ">10%</button>
+  <button id="btn3" type="button" class="btn all tip btn-outline-secondary ">15%</button>
+  <button id="btn4" type="button" class="btn all  tip btn-outline-secondary ">25%</button>
+  <button id="btn5"type="button" class="btn all tip btn-outline-secondary ">50%</button>
+
+<input id="tip6" class="customs btn" type="number"  autocomplete="off"  value="" placeholder="Custom">
+
+
+
+</div>
+
+</div>
+      </div>
+      <div class="col set-order col-12 col-md-6">
+<div class="tip-amount">
+  <h5 class="tip-h5" id="tip-amount">Tip Amount </h5>
+  <h6 class="total" id="amount-tip"> $0.00</h6>
+
+  <p class="person">/ person</p>
+  <h5 class="tip-h5">Total</h5>
+  <h6 class="total" id="total">$0.00</h6>
+  <p  class="person">/ person</p>
+  <div class="div-reload">
+    <button id="reload" onclick="reset()" class="btn reset btn-primary" type="submit">reset</button>
+  </div>
+
+</div>
+      </div>
+      <div class="col  col-12 col-md-6">
+        <div class="end">
+
+
+              <h3 id="ppl">Number of People</h3>
+
+
+
+            <input type="number" id="input" value="" onkeyup="handle()"  autocomplete="off" placeholder="0" >
+
+  <img class="icon-person" src="images/icon-person.png" alt="">
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+      <p class=""> Challenge by  <a href=" Frontend Mentor">Frontend Mentor</a>. Coded by Gilmon Purperhart </p>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<script src="index.js" charset="utf-8"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</script>
+
+</html>

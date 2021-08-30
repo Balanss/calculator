@@ -1,0 +1,308 @@
+
+ body {
+  background-color: #c5e4e7 !important;
+}
+
+.container-fluid{
+  background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Space Mono', monospace;
+}
+
+ input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+
+.logo{
+  text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.bill{
+  text-align: left;
+}
+
+
+ .icon-dollar{
+   position: absolute;
+bottom: 15px;
+left: 25px;
+ }
+
+.tip-h3{
+  font-size: 18px;
+  font-weight: 700;
+    color: #7e7878;
+    text-align: center;
+}
+
+.bill-h3{
+  font-size: 18px;
+    margin-top: 20px;
+    color: #7e7878;
+}
+
+#bill{
+  background-color: #d9d9d9;
+  text-align: right;
+  font-weight:700;
+}
+
+#ppl{
+  font-size: 18px;
+  color: #7e7878;
+  font-weight: 700;
+}
+
+#input{
+  width: 100%;
+    text-align: right;
+        background-color: #d9d9d9;
+        border-color: transparent;
+}
+
+#reload{
+  width: 90%;
+}
+
+.div-reload{
+  width: 80%;
+}
+
+
+.set-order{
+  order: 1;
+}
+
+.select-tip{
+  margin-top: 15px
+}
+
+.allbtn{
+  margin-bottom: 20px;
+}
+
+
+ .btn{
+  min-width: 35%;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+
+
+
+
+.btn-outline-secondary{
+  background-color: #017b7b !important;
+  color: white !important;
+}
+
+.customs{
+  background-color: #bfbcbc;
+width: 30%;
+color: black;
+
+
+}
+
+
+.tip-amount{
+  background-color: #036d6df5;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+margin-top: 20px;
+margin-bottom: 5px;
+}
+
+
+
+
+.icon-person{
+  position: absolute;
+left: 20px;
+top: 37px;
+}
+
+
+.total{
+  float: right;
+  margin-right: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #74bdc0;
+}
+
+.tip-h5{
+  margin-left: 10px;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.person{
+      margin-left: 7px;
+      font-size: 15px;
+      font-weight: 400;
+}
+
+
+.btn-primary{
+      background-color: #1795a9 !important;
+      border-color: #1795a9!important;
+          margin-bottom: 15px;
+}
+
+.footer{
+  text-align: center;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (min-width:375px){
+
+ .container-fluid{
+   max-width: 95%;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+ }
+
+}
+
+@media screen and (min-width:425px){
+   .container-fluid{
+     max-width: 90%;
+   }
+}
+
+@media screen and (min-width:500px){
+   .container-fluid{
+     max-width: 80%;
+
+   }
+}
+
+@media screen and (min-width:600px){
+
+   .container-fluid{
+     max-width: 60%;
+   }
+}
+
+@media screen and (min-width:768px){
+
+   .container-fluid{
+     max-width: 90%;
+         padding-bottom: 20px;
+         border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   }
+
+  .set-order{
+    order: 0;
+  }
+
+  .tip-amount {
+   background-color: #036d6df5;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   margin-top: -63px;
+   margin-bottom: 5px;
+   height: 325px;
+ }
+
+ #bill{
+   max-width: 50%;
+ }
+ #input{
+   width: 95%;
+ }
+
+  .end{
+
+    position: absolute;
+    top: -66px;
+    width: 100%;
+ }
+
+ .div-reload{
+   position: absolute;
+   bottom: 0;
+ }
+
+ .total{
+   font-size: 25px;
+ }
+
+
+
+}
+
+@media screen and (min-width:1200px){
+  .container-fluid{
+    max-width: 60%;
+  }
+}
+
+@media screen and (min-width:1440px){
+  .container-fluid {
+    max-width: 60%;
+ }
+ .logo{
+       margin-bottom: 50px;
+ }
+
+ .total {
+   font-size: 30px;
+ }
+ .tip-h5 {
+    margin-left: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+ }
+}
+
+@media screen and (min-width:1920px){
+  .container-fluid{max-width: 50%}
+
+   .all{
+     min-width: 30%;
+ margin-left: 4px;
+   }
+   .allbtn{
+     width: 100%;
+   }
+   .tip-h3{
+
+       text-align: left;
+   }
+   .customs{
+     min-width: 30%;
+ margin-left: 4px;
+   }
+   #reload {
+   width: 100%;
+ }
+
+ .btn:hover{
+       background-color: #00ccac !important;
+       border-color: transparent !important;
+ }
+}
+
+@media screen and (min-width:2560px){
+  .container-fluid {
+    max-width: 35%;
+ }
+}
